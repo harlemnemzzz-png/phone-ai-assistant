@@ -1,0 +1,77 @@
+.alarm-manager {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.alarm-manager h2 {
+  margin-top: 0;
+}
+
+.alarm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.alarm-form input,
+.alarm-form button,
+.refresh-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.alarm-form input {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.alarm-form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.alarm-form button,
+.refresh-btn {
+  background: #4CAF50;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.alarm-form button:hover,
+.refresh-btn:hover {
+  background: #45a049;
+}
+
+.alarms-list {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.alarms-list h3 {
+  margin-top: 0;
+}
+
+.alarms-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.alarms-list li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.alarms-list li:last-child {
+  margin-bottom: 0;
+}
